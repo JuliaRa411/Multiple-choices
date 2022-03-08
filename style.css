@@ -1,0 +1,258 @@
+body{
+ 
+ 
+   background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+ 
+background-image: url(https://images.unsplash.com/photo-1583577612013-4fecf7bf8f13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=666&q=80);
+
+}
+#header {
+    display: flex;
+    justify-content:center;
+    
+ }
+ #headerOne{
+    display: flex;
+    justify-content:center;
+ }
+h1{  
+    color: #ff8400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+ 
+}
+h2{
+    color: #ff8400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    color: lavender;
+}
+#all {
+    font-size: 15px;
+    color: lavender;
+    display: none;
+    text-align: center;
+    margin-top: -15px;
+    font-family: 'Poppins', sans-serif;
+   } 
+
+#steps{
+    font-size: 15px;
+    color: lavender;
+    text-align: center;
+    margin-top: -15px;
+    font-family: 'Poppins', sans-serif;
+     
+}
+ 
+#buttoms{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+  
+   }
+
+#fruit {
+    background-color: rgba(238, 132, 11, 0.918);
+    margin: 20px;
+    padding: 20px 35px;
+    width: 15%;
+    color: lavender;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: none;
+  }
+
+#vegetable{
+    background-color: rgb(21, 151, 16);
+    margin: 20px;
+    padding: 20px 35px;
+    width: 15%;
+    color: lavender;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: none;
+ }
+
+#images{
+display: flex;
+justify-content: center;
+border: none;
+
+  
+}
+
+
+#myImage{
+   display: none;
+    border: none;
+    height: 450px;
+    width: 350px;
+  }
+
+#recepie{
+    color: #ff8400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(243, 235, 9, 0.452) 13%, rgba(106, 154, 245, 0.37) 45%, rgba(235, 228, 32, 0.377) 89%);
+} 
+ 
+#ingredients {
+    color: #ff8400;
+    font-size: 30px;
+     display: none; 
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+    
+    }
+ 
+
+#preparation{
+    color: #ff8400;
+   font-size: 30px;
+   display: none;  
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+    }
+  
+ #rights{
+     color: white;
+     display: flex;
+     justify-content: center;
+ }
+  
+ 
+.social{
+    text-align: center;
+    margin-top: 170px;
+           }
+      .fas{
+       font-size: 20px;
+       color:  #05813d;
+       margin: 7px;
+       padding: 7px;
+       border-radius: 50%;
+       background-color:#ff8400;
+   }
+
+ @media all and (max-width: 800px) {
+    
+    .social{
+        margin-top: 450px;
+    }
+    body{
+        min-height: 100vh;
+    margin: 0;
+ 
+      
+    }
+    #myImage {
+    height: 450px;
+    width: 350px;
+    margin-top: 50px;
+      }
+    
+    h1{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #rights{
+        text-align: center;
+    }
+    
+#buttoms{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left:15px;
+   
+     
+   }
+   #fruit {
+margin-left: 75px;
+    width: 60%;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+  }
+
+#vegetable{
+    margin-left: 75px;
+    width: 60%;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+ }
+ #recepie{
+     width: 80%;
+     margin-left: 50px;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;}
+}
+
+@media all and (max-width: 500px) {
+    .social{
+        margin-top: 75px;
+    }
+
+    body{
+        min-height: 100vh;
+ 
+      
+    }
+    #myImage {
+    height: 350px;
+    width: 250px;
+    margin-top: 50px;
+      }
+    
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #rights{
+        text-align: center;
+    }
+    
+#buttoms{
+    margin-top: 100px;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+   
+     
+   }
+   #fruit {
+    width: 50%;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+  }
+
+#vegetable{
+    width: 50%;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+ }
+ #recepie{
+     width: 80%;
+     margin-left: 50px;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+}
